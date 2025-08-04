@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Consolas-Font';
+    src: url(fontes/Consolas-Font/Consolas.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Consolas';
+    background-color: black;
+}
+header{
+    margin-top: 2em;
+}
+nav{
+    background-color: rgb(7, 7, 7);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+header a{
+    color: rgb(20, 186, 20);
+}
+main{
+}
+a:hover{
+    color: rgb(134, 255, 134);
+}
+section{
+    display: flex;
+    color: white;
+}
