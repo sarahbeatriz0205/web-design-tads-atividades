@@ -20,27 +20,20 @@ body{
 ul li{
     display: inline-block;
     list-style-type: none;
-    margin-right: 10em;
 }
 
 nav{
     border: 2px solid rgb(7, 7, 7);
     background-color: rgb(7, 7, 7);
-    padding: 1px;
-    margin-bottom: 4em;
-    margin-top: 4em;
+    padding: 2rem;
 }
-
-nav{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top: 1em;
-    text-align: center;
+nav > ul{
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a{
     color: rgb(20, 186, 20);
-    padding-left: 6em;
 }
 
 a:hover{

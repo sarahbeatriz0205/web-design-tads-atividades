@@ -14,6 +14,19 @@
 header{
     margin-top: 2em;
 }
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+h2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+h3{
+    margin-top: 2rem;
+}
+
 nav{
     background-color: rgb(7, 7, 7);
 }
@@ -25,12 +38,28 @@ ul{
 header a{
     color: rgb(20, 186, 20);
 }
-main{
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+figure{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+section > figure img{
+    width: 50%;
+}
+form > div{
+    width: 25%;
 }
 a:hover{
     color: rgb(134, 255, 134);
 }
 section{
-    display: flex;
     color: white;
+}
+section > form > div > p{
+    margin-bottom: 1.5rem;
 }

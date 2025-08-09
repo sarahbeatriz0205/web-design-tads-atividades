@@ -12,11 +12,6 @@
 }
 
 body{
-    /* background-image: url(imagens/background.svg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-color: black;
     color:rgb(20, 186, 20);
 }
@@ -33,18 +28,16 @@ header{
 nav{
     border: 2px solid rgb(7, 7, 7);
     background-color: rgb(7, 7, 7);
-    padding: 1px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 270px;
-    margin-top: 3em;
-    margin-bottom: 4em;
-    /* margin-left: 270px; */
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a{
     color: rgb(20, 186, 20);
-    padding: 7em;
 }
 
 a:hover{
@@ -54,6 +47,7 @@ a:hover{
 h1{
     text-align: center;
     margin-top: 1em;
+    margin-bottom: 2rem;
 }
 
 h1 a{
