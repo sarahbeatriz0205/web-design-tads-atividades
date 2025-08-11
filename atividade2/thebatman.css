@@ -9,6 +9,7 @@
     text-decoration: none;
     font-weight: bold;
     font-family: 'Consolas';
+    box-sizing: border-box;
 }
 
 body{
@@ -16,23 +17,16 @@ body{
     color:white;
 }
 
-ul li{
-    display: inline-block;
+ul{
+    display: flex;
     list-style-type: none;
+    justify-content: space-around;
+    padding: 1rem;
 }
-
-header{
-    margin-top: 2em;
-}
-
 nav{
-    border: 1px solid rgb(7, 7, 7);
+    border: 2px solid rgb(7, 7, 7);
     background-color: rgb(7, 7, 7);
-    padding-top: 2.2em;
-    padding-bottom: 0.5em;
-    margin-bottom: 4em;
-    padding-left: 1em;
-    text-align: center;
+    margin-bottom: 2rem;
 }
 
 nav a{
@@ -60,6 +54,7 @@ article img.imagembatman{
 header > h1{
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 h1 > a{
     color:rgb(20, 186, 20);
@@ -101,11 +96,6 @@ ul.elenco{
    padding: 5em;
    margin-left: 4.3em;
 
-}
-
-li{
-    width: 207px;
-    margin-bottom: 2em;
 }
 
 footer{

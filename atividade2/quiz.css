@@ -63,3 +63,15 @@ section{
 section > form > div > p{
     margin-bottom: 1.5rem;
 }
+div > img{
+    text-align: center;
+}
+.resultados > h2{
+    margin-top: 7rem;
+}
+footer{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.6rem;
+    color: white;
+}

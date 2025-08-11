@@ -13,8 +13,7 @@
 
 body{
     background-color: black;
-    color:rgb(20, 186, 20);
-    color:rgb(20, 186, 20);
+    color:white;
 }
 
 ul li{
@@ -25,14 +24,14 @@ ul li{
 nav{
     border: 2px solid rgb(7, 7, 7);
     background-color: rgb(7, 7, 7);
-    padding: 2rem;
+    padding: 1rem;
 }
 nav > ul{
     display: flex;
     justify-content: space-around;
 }
 
-nav a{
+nav a, header a{
     color: rgb(20, 186, 20);
 }
 
@@ -40,12 +39,16 @@ a:hover{
     color: rgb(134, 255, 134);
 }
 
-h1{
-    font-size: 1.6em;
+h2{
     margin-top: 4em;
     margin-bottom: 1em;
     margin-left: 2em;
     margin-right: 2em;
+}
+header > h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 p{
@@ -60,4 +63,10 @@ article ul li{
     margin-top: 0.5em;
     margin-left: 5em;
     margin-right: 5em;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.6rem;
+    margin-top: 3rem;
 }
