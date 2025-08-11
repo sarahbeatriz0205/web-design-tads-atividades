@@ -68,10 +68,22 @@ div > img{
 }
 .resultados > h2{
     margin-top: 7rem;
+    width: 100%;
 }
 footer{
     margin-top: 3rem;
     text-align: center;
     font-size: 0.6rem;
     color: white;
+}
+.resultados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.resultados > div > p{
+    width:40rem;
+}
+.resultados > div > h3{
+    width: 40rem;
 }
