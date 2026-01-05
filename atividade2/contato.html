@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fale Conosco</title>
+    <title data-i18n="tituloContato">Fale Conosco</title>
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
     <header>
-        <h1><a href="index.html"><img src="imagens/logo.png" alt="logo da página"><br>Acervo Rata Alada</a></h1>
+        <h1 data-i18n="tituloPaginaPrincipal"><a href="index.html"><img src="imagens/logo.png" alt="logo da página"><br>Acervo Rata Alada</a></h1>
         <nav>
             <ul>
                     <!--PÁGINAS INTERNAS-->
                 <li><a href="thebatman.html">THE BATMAN</a></li>
-                <li><a href="respostas.html">RESPOSTAS</a></li>
+                <li data-i18n="menuRespostas"><a href="respostas.html">RESPOSTAS</a></li>
                 <li><a href="quiz.html">QUIZ</a></li>
-                <li><a href="contato.html">FALE CONOSCO</a></li>
-                <li><a href="informacoes.html">SOBRE</a></li>
+                <li data-i18n="menuContato"><a href="contato.html">FALE CONOSCO</a></li>
+                <li data-i18n="menuInformacoes"><a href="informacoes.html">SOBRE</a></li>
             </ul>
         </nav>
      </header>
      <main>
         <section class="titles">
-            <h1>Nos dê sugestões de melhoria!</h1>
-            <p>Com o Batman não existe diálogo, mas conosco, existe. Conte-nos o que pensa!</p>
+            <h1 data-i18n="tituloSugestaoMelhoriaContato">Nos dê sugestões de melhoria!</h1>
+            <p data-i18n="descricaoAbaixoTituloSugestaoMelhoriaContato">Com o Batman não existe diálogo, mas conosco, existe. Conte-nos o que pensa!</p>
         </section>
         <section class="form">
             <form action="">
-                <h3>Seus Dados:</h3>
-                <label><input type="text" name="nome" id="nome" placeholder="SEU NOME"></label><br>
-                <label><input type="email" name="email" id="email" placeholder="SEU E-MAIL"></label><br>
-                <label for="mensagem">Deixe-nos sua mensagem: *</label><br>
+                <h3 data-i18n="seusDadosContato">Seus Dados:</h3>
+                <label><input type="text" name="nome" id="nome" placeholder="SEU NOME" data-i18n="placeholderNome"></label><br>
+                <label><input type="email" name="email" id="email" placeholder="SEU E-MAIL" data-i18n="placeholderEmail""></label><br>
+                <label for="mensagem" data-i18n="labelTituloMensagem">Deixe-nos sua mensagem:</label><br>
                 <textarea name="mensagem" id="mensagem" rows="15rem" cols="60rem"></textarea><br>
-                <button>Enviar</button>
+                <button data-i18n="buttonEnviarMensagem">Enviar</button>
             </form>
         </section>
      </main>
       <footer>
-        <p>TODOS OS DIREITOS RESERVADOS À DC COMICS ©</p>
+        <p data-i18n="rodape">TODOS OS DIREITOS RESERVADOS À DC COMICS ©</p>
     </footer>
 </body>
 </html>

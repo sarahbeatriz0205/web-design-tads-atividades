@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acervo Rata Alada - The Batman</title>
     <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1><a href="index.html"><img src="imagens/logo.png" alt="logo da página"><br>Acervo Rata Alada</a></h1>
+        <h1 data-i18n="tituloPaginaPrincipal"><a href="index.html"><img src="imagens/logo.png" alt="logo da página"><br>Acervo Rata Alada</a></h1>
         <nav>
             <ul>
                     <!--PÁGINAS INTERNAS-->
                 <li><a href="thebatman.html">THE BATMAN</a></li>
-                <li><a href="respostas.html">RESPOSTAS</a></li>
+                <li data-i18n="menuRespostas"><a href="respostas.html">RESPOSTAS</a></li>
                 <li><a href="quiz.html">QUIZ</a></li>
-                <li><a href="contato.html">FALE CONOSCO</a></li>
-                <li><a href="informacoes.html">SOBRE</a></li>
+                <li data-i18n="menuContato"><a href="contato.html">FALE CONOSCO</a></li>
+                <li data-i18n="menuInformacoes"><a href="informacoes.html">SOBRE</a></li>
             </ul>
         </nav>
 
-            <p> >> READY TO UNCOVER THE TRUTH? LET’S GET STARTED. </p>
+            <p> >> READY TO UNCOVER THE TRUTH? LET'S GET STARTED. </p>
             <p> >> I CAN BE EASY OR A DEAD END. CAREFUL WHEN YOU CROSS ME. </p>
 
-            <h2 class="titulo">CATÁLOGO DE TESTES</h2><!--eu sei que ficou errado, mas não consegui descobrir o problema de jeito nenhum. pondo no main, ele atrapalhava os cards, mas eu não podia mudar o que tinha no css especificamente no main-->
+            <ul>
+                <li><button onclick=setLinguagem(ptbr)>Português</button></li>
+                <li><button onclick=setLinguagem(en)>English</button></li>
+            </ul>
+
+            <h2 class="titulo", data-i18n="tituloTestes">CATÁLOGO DE TESTES</h2><!--eu sei que ficou errado, mas não consegui descobrir o problema de jeito nenhum. pondo no main, ele atrapalhava os cards, mas eu não podia mudar o que tinha no css especificamente no main-->
     </header>
 
     <main>
@@ -72,13 +78,13 @@
                 <img src="imagens/HQ_Charada_Ano_Um_recompensa7.png" alt="recompensa do 3º teste">
             </figure>
 
-            <h2>Fear he who hides behind onde</h2>
+            <h2>Fear he who hides behind on</h2>
         </section>
 
     </main>
 
     <footer>
-        <p>TODOS OS DIREITOS RESERVADOS À DC COMICS ©</p>
+        <p data-i18n="rodape">TODOS OS DIREITOS RESERVADOS À DC COMICS ©</p>
     </footer>
 
 </body>
