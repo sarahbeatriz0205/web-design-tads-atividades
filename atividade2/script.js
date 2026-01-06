@@ -85,8 +85,12 @@ const traducao = {
         "ColinFarrell": "Colin Farrell as Penguin",
 
     }
-}
+};
 
 function setLinguagem(en){ 
-    
+    document.querySelectorAll("[data-i18n]").forEach(mudar => {
+        const chave = mudar.getAttribute("data-i18n");
+        const novoTexto = traducao["en"][chave];
+        mudar.textContent = novoTexto; 
+    });
 }
