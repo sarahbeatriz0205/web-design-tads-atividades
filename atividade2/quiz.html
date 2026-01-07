@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1 data-i18n="tituloPaginaPrincipal"><a href="index.html"><img src="imagens/logo.png" alt="logo da página"><br>Acervo Rata Alada</a></h1>
+        <h1><a href="index.html" data-i18n="tituloPaginaPrincipal"><br>Acervo Rata Alada</a></h1>
         <nav>
             <ul>                
                     <!--PÁGINAS INTERNAS-->
                 <li><a href="thebatman.html">THE BATMAN</a></li>
-                <li data-i18n="menuRespostas"><a href="respostas.html">RESPOSTAS</a></li>
+                <li><a href="respostas.html" data-i18n="menuRespostas">RESPOSTAS</a></li>
                 <li><a href="quiz.html">QUIZ</a></li>
-                <li data-i18n="menuContato"><a href="contato.html">FALE CONOSCO</a></li>
-                <li data-i18n="menuInformacoes"><a href="informacoes.html">SOBRE</a></li>
+                <li><a href="contato.html" data-i18n="menuContato">FALE CONOSCO</a></li>
+                <li><a href="informacoes.html" data-i18n="menuInformacoes">SOBRE</a></li>
             </ul>
         </nav>
     <main>
@@ -29,56 +30,55 @@
                 <form action="">
                         <div>
                             <p data-i18n="primeiraPerguntaQuizBatman">1. Como você lida com seus sentimentos?</p>
-                            <label data-i18n="resposta1QuizBatman"><input type="radio" name="respostas" value="resposta1">a. Guardo tudo pra mim e transformo em motivação</label><br>
-                            <label data-i18n="resposta2QuizBatman"><input type="radio" name="respostas" value="resposta2">b. Tento racionalizar e seguir em frente</label><br>
-                            <label data-i18n="resposta3QuizBatman"><input type="radio" name="respostas" value="resposta3">c. Me isolo, mas sinto tudo com muita intensidade</label><br>
-                            <label data-i18n="resposta4QuizBatman"><input type="radio" name="respostas" value="resposta4">d. Uso o sarcasmo como escudo</label><br>
-                            <label data-i18n="resposta5QuizBatman"><input type="radio" name="respostas" value="resposta5">e. Tento manter o equilíbrio e fazer o que é certo</label><br>
+                            <label><input type="radio" name="respostas" value="resposta1" data-i18n="resposta1QuizBatman">a. Guardo tudo pra mim e transformo em motivação</label><br> 
+                            <label><input type="radio" name="respostas" value="resposta2" data-i18n="resposta2QuizBatman">b. Tento racionalizar e seguir em frente</label><br> 
+                            <label><input type="radio" name="respostas" value="resposta3" data-i18n="resposta3QuizBatman">c. Me isolo, mas sinto tudo com muita intensidade</label><br> 
+                            <label><input type="radio" name="respostas" value="resposta4" data-i18n="resposta4QuizBatman">d. Uso o sarcasmo como escudo</label><br> 
+                            <label><input type="radio" name="respostas" value="resposta5" data-i18n="resposta5QuizBatman">e. Tento manter o equilíbrio e fazer o que é certo</label><br>
                         </div>
-
                         <div>
                             <p data-i18n="segundaPerguntaQuizBatman">2. Qual seria sua arma favorita como herói?</p>
-                            <label data-i18n="resposta6QuizBatman"><input type="radio" name="respostas1" value="resposta6">a. Força bruta e olhar intimidador</label><br>
-                            <label data-i18n="resposta7QuizBatman"><input type="radio" name="respostas1" value="resposta7">b. Tecnologia de ponta e armaduras sofisticadas</label><br>
-                            <label data-i18n="resposta8QuizBatman"><input type="radio" name="respostas1" value="resposta8">c. Agilidade e táticas furtivas</label><br>
-                            <label data-i18n="resposta9QuizBatman"><input type="radio" name="respostas1" value="resposta9">d. Charme e improviso</label><br>
-                            <label data-i18n="resposta10QuizBatman"><input type="radio" name="respostas1" value="resposta10">e. Disciplina e treinamento</label><br>
+                            <label><input type="radio" name="respostas1" value="resposta6" data-i18n="resposta6QuizBatman">a. Força bruta e olhar intimidador</label><br> 
+                            <label><input type="radio" name="respostas1" value="resposta7" data-i18n="resposta7QuizBatman">b. Tecnologia de ponta e armaduras sofisticadas</label><br> 
+                            <label><input type="radio" name="respostas1" value="resposta8" data-i18n="resposta8QuizBatman">c. Agilidade e táticas furtivas</label><br> 
+                            <label><input type="radio" name="respostas1" value="resposta9" data-i18n="resposta9QuizBatman">d. Charme e improviso</label><br> 
+                            <label><input type="radio" name="respostas1" value="resposta10" data-i18n="resposta10QuizBatman">e. Disciplina e treinamento</label><br>
                         </div>
 
                         <div>
                             <p data-i18n="terceiraPerguntaQuizBatman">3. Como seria sua Batcaverna?</p>
-                            <label data-i18n="resposta11QuizBatman"><input type="radio" name="respostas2" value="resposta11">a. Escura, gótica e cheia de segredos</label><br>
-                            <label data-i18n="resposta12QuizBatman"><input type="radio" name="respostas2" value="resposta12">b. Moderna, funcional e cheia de gadgets</label><br>
-                            <label data-i18n="resposta13QuizBatman"><input type="radio" name="respostas2" value="resposta13">c. Minimalista, mas eficiente</label><br>
-                            <label data-i18n="resposta14QuizBatman"><input type="radio" name="respostas2" value="resposta14">d. Um pouco bagunçada, mas estilosa</label><br>
-                            <label data-i18n="resposta15QuizBatman"><input type="radio" name="respostas2" value="resposta15">e. Clássica, com tudo em ordem</label><br>
+                           <label><input type="radio" name="respostas2" value="resposta11" data-i18n="resposta11QuizBatman">a. Escura, gótica e cheia de segredos</label><br> 
+                           <label><input type="radio" name="respostas2" value="resposta12" data-i18n="resposta12QuizBatman">b. Moderna, funcional e cheia de gadgets</label><br> 
+                           <label><input type="radio" name="respostas2" value="resposta13" data-i18n="resposta13QuizBatman">c. Minimalista, mas eficiente</label><br> 
+                           <label><input type="radio" name="respostas2" value="resposta14" data-i18n="resposta14QuizBatman">d. Um pouco bagunçada, mas estilosa</label><br> 
+                           <label><input type="radio" name="respostas2" value="resposta15" data-i18n="resposta15QuizBatman">e. Clássica, com tudo em ordem</label><br>
                         </div>
 
                         <div>
                             <p data-i18n="quartaPerguntaQuizBatman">4. Como as pessoas te veem?</p>
-                            <label data-i18n="resposta16QuizBatman"><input type="radio" name="respostas3" value="resposta16">a. Misterioso e intenso</label><br>
-                            <label data-i18n="resposta17QuizBatman"><input type="radio" name="respostas3" value="resposta17">b. Sério e inteligente</label><br>
-                            <label data-i18n="resposta18QuizBatman"><input type="radio" name="respostas3" value="resposta18">c. Frio, mas profundo</label><br>
-                            <label data-i18n="resposta19QuizBatman"><input type="radio" name="respostas3" value="resposta19">d. Carismático e criativo</label><br>
-                            <label data-i18n="resposta20QuizBatman"><input type="radio" name="respostas3" value="resposta20">e. Justo e confiável</label><br>
+                           <label><input type="radio" name="respostas3" value="resposta16" data-i18n="resposta16QuizBatman">a. Misterioso e intenso</label><br> 
+                           <label><input type="radio" name="respostas3" value="resposta17" data-i18n="resposta17QuizBatman">b. Sério e inteligente</label><br> 
+                           <label><input type="radio" name="respostas3" value="resposta18" data-i18n="resposta18QuizBatman">c. Frio, mas profundo</label><br> 
+                           <label><input type="radio" name="respostas3" value="resposta19" data-i18n="resposta19QuizBatman">d. Carismático e criativo</label><br> 
+                           <label><input type="radio" name="respostas3" value="resposta20" data-i18n="resposta20QuizBatman">e. Justo e confiável</label><br>
                         </div>
 
                         <div>
                             <p data-i18n="quintaPerguntaQuizBatman">5. Qual dessas frases mais te representa?</p>
-                            <label data-i18n="resposta21QuizBatman"><input type="radio" name="respostas4" value="resposta21">a. "A vingança me guia."</label><br>
-                            <label data-i18n="resposta22QuizBatman"><input type="radio" name="respostas4" value="resposta22">b. "Eu sou o Batman"</label><br>
-                            <label data-i18n="resposta23QuizBatman"><input type="radio" name="respostas4" value="resposta23">c. "Não preciso que gostem de mim, só que me respeitem."</label><br>
-                            <label data-i18n="resposta24QuizBatman"><input type="radio" name="respostas4" value="resposta24">d. "Quem disse que o Batman não pode ter estilo?"</label><br>
-                            <label data-i18n="resposta25QuizBatman"><input type="radio" name="respostas4" value="resposta25">e. "Com grandes poderes vem grandes responsabilidades"</label><br>
+                            <label><input type="radio" name="respostas4" value="resposta21" data-i18n="resposta21QuizBatman">a. "A vingança me guia."</label><br> 
+                            <label><input type="radio" name="respostas4" value="resposta22" data-i18n="resposta22QuizBatman">b. "Eu sou o Batman"</label><br> 
+                            <label><input type="radio" name="respostas4" value="resposta23" data-i18n="resposta23QuizBatman">c. "Não preciso que gostem de mim, só que me respeitem."</label><br> 
+                            <label><input type="radio" name="respostas4" value="resposta24" data-i18n="resposta24QuizBatman">d. "Quem disse que o Batman não pode ter estilo?"</label><br> 
+                            <label><input type="radio" name="respostas4" value="resposta25" data-i18n="resposta25QuizBatman">e. "Com grandes poderes vem grandes responsabilidades"</label><br>
                         </div>
 
                         <div>
                             <p data-i18n="sextaPerguntaQuizBatman">6. Qual é sua visão sobre justiça?</p>
-                            <label data-i18n="resposta26QuizBatman"><input type="radio" name="respostas5" value="resposta26">a. Justiça é proteger inocentes usando inteligência.</label><br>
-                            <label data-i18n="resposta27QuizBatman"><input type="radio" name="respostas5" value="resposta27">b. Justiça é eliminar o mal com firmeza e sem hesitar.</label><br>
-                            <label data-i18n="resposta28QuizBatman"><input type="radio" name="respostas5" value="resposta28">c. Justiça é manter o equilíbrio e inspirar esperança.</label><br>
-                            <label data-i18n="resposta29QuizBatman"><input type="radio" name="respostas5" value="resposta29">d. Justiça é enfrentar a corrupção onde ela realmente nasce.</label><br>
-                            <label data-i18n="resposta30QuizBatman"><input type="radio" name="respostas5" value="resposta30">e. Justiça é ser justo.</label><br>
+                          <label><input type="radio" name="respostas5" value="resposta26" data-i18n="resposta26QuizBatman">a. Justiça é proteger inocentes usando inteligência.</label><br> 
+                          <label><input type="radio" name="respostas5" value="resposta27" data-i18n="resposta27QuizBatman">b. Justiça é eliminar o mal com firmeza e sem hesitar.</label><br> 
+                          <label><input type="radio" name="respostas5" value="resposta28" data-i18n="resposta28QuizBatman">c. Justiça é manter o equilíbrio e inspirar esperança.</label><br> 
+                          <label><input type="radio" name="respostas5" value="resposta29" data-i18n="resposta29QuizBatman">d. Justiça é enfrentar a corrupção onde ela realmente nasce.</label><br> 
+                          <label><input type="radio" name="respostas5" value="resposta30" data-i18n="resposta30QuizBatman">e. Justiça é ser justo.</label><br>
                         </div>
                 </form>
             </section>
